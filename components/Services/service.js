@@ -8,8 +8,8 @@ const service = () => {
             <h2 className="text-center">Our Services</h2>
             <Row className="d-flex text-center">
                 <Col xl={6} lg={6} md={6} sm={12} xs={12} >
-                    <div>
-                        <img src="/images/cloudDevMain.jpg" alt="" />
+                    <div >
+                        <img src="/images/cloudDevMain.jpg" alt="" width="100%" />
                     </div>
                 </Col>
                 <Col xl={6} lg={6} md={6} sm={12} xs={12} >
