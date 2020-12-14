@@ -1,14 +1,9 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Home from './home/index'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      Hello World    
-    </div>
+const root = () =>{
+  return(
+    <Home />
   )
 }
+
+export default root;
