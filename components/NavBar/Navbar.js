@@ -1,10 +1,13 @@
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import Image from 'next/image'
+import Head from 'next/head'
 import './style.css'
 
 export default function Navigation() {
   return (
     <>
+    <Head>
+      <title>Ar Info Services</title>
+    </Head>
       <Navbar collapseOnSelect
         expand="lg"
         className="p-2 navbar"

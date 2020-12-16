@@ -1,0 +1,8 @@
+.showcase-ContainerDiv{
+    background-color: #cccccc;
+    /* padding: 0 50px; */
+}
+.showcase-ContainerDiv h2{
+    font-size: 35px;
+    text-transform: uppercase;
+}
