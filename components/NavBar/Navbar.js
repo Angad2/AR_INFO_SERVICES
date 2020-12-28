@@ -6,7 +6,7 @@ export default function Navigation() {
   return (
     <>
     <Head>
-      <title>Ar Info Services</title>
+      <title>Ar Info Tech</title>
     </Head>
       <Navbar collapseOnSelect
         expand="lg"
@@ -15,7 +15,8 @@ export default function Navigation() {
       >
         <div className="imgDiv">
           {/* <Image src="/images/new-logo.png" width="200%" height="50%" /> */}
-          <Navbar.Brand href="#home" style={{fontWeight:'700',fontSize:'25px'}}><span style={{color:'#f15a29'}}>A</span>r <span style={{color:'#f15a29'}}>I</span>nfo <span style={{color:'#f15a29'}}>S</span>ervices</Navbar.Brand>
+          <Navbar.Brand href="#home" style={{fontWeight:'700',fontSize:'25px'}}><span style={{color:'#f15a29'}}>A</span>r <span style={{color:'#f15a29'}}>I</span>nfo <span style={{color:'#f15a29'}}>T</span>ech Services</Navbar.Brand>
+          <p style={{marginTop:'-10px',marginLeft:'0px'}}>Delivering Innovation </p>
         </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navToggle" />
         <Navbar.Collapse id="responsive-navbar-nav">
