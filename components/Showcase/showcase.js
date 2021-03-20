@@ -6,7 +6,7 @@ import './style.css'
 const Showcase = () =>{
     return (
         <div>
-            <Container className="showcase-ContainerDiv py-4 text-center" fluid={true} >
+            <Container className=" py-4 text-center" fluid={true} >
             <h2>Showcase</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <Row className="d-flex align-items-center justify-content-center mt-5">

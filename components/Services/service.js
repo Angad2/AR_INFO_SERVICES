@@ -1,31 +1,98 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './style.css'
+import { GoDeviceDesktop } from "react-icons/go";
+import { opencart } from "react-icons/fa";
 
 const service = () => {
     return (
-        <div>
+        <div 
+        style={{ 
+            backgroundImage: `url("/images/bg.png")`,
+            backgroundRepeat: 'no-repeat',
+            width: '100%',
+            backgroundSize: 'cover', 
+            fontFamily:'Poppins'
+        }}>
             <Container className="ContainerDiv py-5" >
-            <h2 className="text-center">Our Services</h2>
-            <Row className="d-flex align-items-center justify-content-center">
-                <Col xl={6} lg={6} md={6} sm={12} xs={12} >
-                    <div className="p-3">
-                        <img src="/images/cloudDevMain.jpg" alt="" width="100%" />
-                    </div>
-                </Col>
-                <Col xl={6} lg={6} md={6} sm={12} xs={12} >
-                    <p style={{textAlign:'justify',marginTop:'20px'}}>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-                </Col>
+                <h3 className="text-center" style={{ color: '#f15a29', marginBottom: 0, fontWeight: '700' }}>OUR SERVICES</h3>
+                <Row className="d-flex align-items-center justify-content-center mt-4">
+                <Col xl={3} lg={3} md={3} sm={12} xs={12} style={{display:'flex',flexDirection:'row'}}>
+                        <div style={{width: '10%',marginRight:15}}>
+                            <GoDeviceDesktop size={30} style={{color:'#ededed'}} />
+                        </div>
+                        <div style={{width: '90%'}}>
+                            <h5 style={{ color: '#f15a29', }}>Mobile Applications</h5>
+                            <p style={{ textAlign: 'justify', color: 'gray',fontSize: 14, }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            
+                            </p>
+                        </div>
+                    </Col>
+                    <Col xl={3} lg={3} md={3} sm={12} xs={12} style={{display:'flex',flexDirection:'row'}}>
+                        <div style={{width: '10%',marginRight:15}}>
+                            <opencart size={30} style={{color:'#ededed'}} />
+                        </div>
+                        <div style={{width: '90%'}}>
+                            <h5 style={{ color: '#f15a29' }}>eCommerce</h5>
+                            <p style={{ textAlign: 'justify', color: 'gray',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            
+                            </p>
+                        </div>
+                    </Col>
+                    <Col xl={3} lg={3} md={3} sm={12} xs={12} style={{display:'flex',flexDirection:'row'}}>
+                        <div style={{width: '10%',marginRight:15}}>
+                            <GoDeviceDesktop size={30} style={{color:'#ededed'}} />
+                        </div>
+                        <div style={{width: '90%'}}>
+                            <h5 style={{ color: '#f15a29' }}>Web Design</h5>
+                            <p style={{ textAlign: 'justify', color: 'gray',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            
+                            </p>
+                        </div>
+                    </Col>
             </Row>
-        </Container>
+            <Row className="d-flex align-items-center justify-content-center mt-3">
+                <Col xl={3} lg={3} md={3} sm={12} xs={12} style={{display:'flex',flexDirection:'row'}}>
+                        <div style={{width: '10%',marginRight:15}}>
+                            <GoDeviceDesktop size={30} style={{color:'#ededed'}} />
+                        </div>
+                        <div style={{width: '90%'}}>
+                            <h5 style={{ color: '#f15a29' }}>Web Applications</h5>
+                            <p style={{ textAlign: 'justify', color: 'gray',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            
+                            </p>
+                        </div>
+                    </Col>
+                    <Col xl={3} lg={3} md={3} sm={12} xs={12} style={{display:'flex',flexDirection:'row'}}>
+                        <div style={{width: '10%',marginRight:15}}>
+                            <GoDeviceDesktop size={30} style={{color:'#ededed'}} />
+                        </div>
+                        <div style={{width: '90%'}}>
+                            <h5 style={{ color: '#f15a29' }}>Copy Writing</h5>
+                            <p style={{ textAlign: 'justify', color: 'gray',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            
+                            </p>
+                        </div>
+                    </Col>
+                    <Col xl={3} lg={3} md={3} sm={12} xs={12} style={{display:'flex',flexDirection:'row'}}>
+                        <div style={{width: '10%',marginRight:15}}>
+                            <GoDeviceDesktop size={30} style={{color:'#ededed'}} />
+                        </div>
+                        <div style={{width: '90%'}}>
+                            <h5 style={{ color: '#f15a29' }}>Branding</h5>
+                            <p style={{ textAlign: 'justify', color: 'gray',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            
+                            </p>
+                        </div>
+                    </Col>
+            </Row>
+            </Container>
         </div>
     )
 }
