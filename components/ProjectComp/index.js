@@ -18,7 +18,7 @@ const ProjectComp = () => {
                         <div>
                         <h3  style={{ color: '#C7C9A9',fontWeight: '700' }}>Have a project on your mind.</h3>
                             <p style={{ textAlign: 'justify', color: 'green',fontSize: 14,marginTop:15 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                             
                             </p>
                         </div>
@@ -30,7 +30,7 @@ const ProjectComp = () => {
                         <div style={{width: '90%'}}>
                             <h5 style={{ color: '#000' }}>Copy Writing</h5>
                             <p style={{ textAlign: 'justify', color: 'green',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                             
                             </p>
                         </div>
