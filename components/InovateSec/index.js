@@ -16,7 +16,7 @@ function Inovate() {
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
                         </div>
-                        <div style={{ marginLeft: 30}}>
+                        <div style={{ marginLeft: 30,color: 'gray',}}>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Customer Experience</p>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Product Management</p>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Proof of Concept</p>
@@ -31,7 +31,7 @@ function Inovate() {
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
                         </div>
-                        <div style={{ marginLeft: 30}}>
+                        <div style={{ marginLeft: 30,color: 'gray',}}>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Web Designing</p>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Branding</p>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Web & App Development</p>
@@ -46,7 +46,7 @@ function Inovate() {
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
                         </div>
-                        <div style={{ marginLeft: 30}}>
+                        <div style={{ marginLeft: 30,color: 'gray',}}>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Social Meadia</p>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Paid Compaigns</p>
                             <p style={{marginBottom: 5}}><span><FcApprove style={{marginRight:5,fontSize: 20}} /></span>Marketing and SEO</p>

@@ -9,20 +9,21 @@ export default function Navigation() {
       <Head>
         <title>Ar InfoTech</title>
       </Head>
-      <Navbar collapseOnSelect
-        expand="lg"
-        className="p-0 navbar"
-        fixed="top"
-        style={{height:70}}
-      >
+      <Navbar collapseOnSelect expand="lg" fixed="top" bg="dark" variant="dark" style={{
+        backgroundImage: `url("/images/bg.png")`,
+        backgroundRepeat: 'no-repeat',
+        width: '100%',
+        backgroundSize: 'cover',
+        padding: 0
+      }}>
         <div className="imgDiv">
           {/* <Image src="/images/new-logo.png" width="200%" height="50%" /> */}
-          <Navbar.Brand href="#home" style={{ fontWeight: '700', fontSize: '25px',paddingTop:'10px' }}><span style={{ color: '#f15a29' }}>A</span>r <span style={{ color: '#f15a29' }}>I</span>nfo<span style={{ color: '#f15a29' }}>T</span>ech <span style={{ color: '#f15a29' }}>S</span>ervices</Navbar.Brand>
-          <p style={{ marginTop: '-10px', marginLeft: '90px' }}>Delivering Innovation </p>
+          <Navbar.Brand href="#home" style={{ fontWeight: '700', fontSize: '25px' }}><span style={{ color: '#f15a29' }}>A</span>r <span style={{ color: '#f15a29' }}>I</span>nfo<span style={{ color: '#f15a29' }}>T</span>ech <span style={{ color: '#f15a29' }}>S</span>ervices</Navbar.Brand>
+          <p style={{ marginTop: '-10px', marginLeft: '90px', color: '#fff' }}>Delivering Innovation </p>
         </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navToggle" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="dItem">
+        <Navbar.Collapse id="responsive-navbar-nav" >
+          <Nav className="dItem" >
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#about-us">About Us</Nav.Link>
             <NavDropdown title="Services" id="collasible-nav-dropdown" >

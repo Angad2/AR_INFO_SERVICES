@@ -6,15 +6,11 @@ import { opencart } from "react-icons/fa";
 
 const ProjectComp = () => {
     return (
-        <div 
-        style={{ 
-            // backgroundColor: '#C7C9A9',
-            fontFamily:'Poppins'
-        }}>
-            <Container className="ContainerDiv py-5" >
+        <div className="main">
+            <Container className="py-5" >
                 
             <Row className="d-flex align-items-center justify-content-center mt-3">
-                <Col xl={6} lg={6} md={6} sm={12} xs={12} style={{display:'flex',flexDirection:'row'}}>
+                <Col xl={6} lg={6} md={6} sm={12} xs={12}>
                         <div>
                         <h3  style={{ color: '#C7C9A9',fontWeight: '700' }}>Have a project on your mind.</h3>
                             <p style={{ textAlign: 'justify', color: 'green',fontSize: 14,marginTop:15 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
