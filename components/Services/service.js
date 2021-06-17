@@ -17,7 +17,7 @@ const service = () => {
                         </div>
                         <div style={{width: '90%'}}>
                             <h5 style={{ color: '#f15a29', }}>Mobile Applications</h5>
-                            <p style={{ textAlign: 'justify', color: '#fff',fontSize: 14, }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p style={{  color: '#fff',fontSize: 14,letterSpacing: 0.5 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             
                             </p>
@@ -29,7 +29,7 @@ const service = () => {
                         </div>
                         <div style={{width: '90%'}}>
                             <h5 style={{ color: '#f15a29' }}>eCommerce</h5>
-                            <p style={{ textAlign: 'justify', color: '#fff',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p style={{  color: '#fff',fontSize: 14,letterSpacing: 0.5 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             
                             </p>
@@ -41,7 +41,7 @@ const service = () => {
                         </div>
                         <div style={{width: '90%'}}>
                             <h5 style={{ color: '#f15a29' }}>Web Design</h5>
-                            <p style={{ textAlign: 'justify', color: '#fff',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p style={{  color: '#fff',fontSize: 14,letterSpacing: 0.5 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             
                             </p>
@@ -55,7 +55,7 @@ const service = () => {
                         </div>
                         <div style={{width: '90%'}}>
                             <h5 style={{ color: '#f15a29' }}>Web Applications</h5>
-                            <p style={{ textAlign: 'justify', color: '#fff',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p style={{  color: '#fff',fontSize: 14,letterSpacing: 0.5 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             
                             </p>
@@ -67,7 +67,7 @@ const service = () => {
                         </div>
                         <div style={{width: '90%'}}>
                             <h5 style={{ color: '#f15a29' }}>Copy Writing</h5>
-                            <p style={{ textAlign: 'justify', color: '#fff',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p style={{  color: '#fff',fontSize: 14,letterSpacing: 0.5 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             
                             </p>
@@ -79,7 +79,7 @@ const service = () => {
                         </div>
                         <div style={{width: '90%'}}>
                             <h5 style={{ color: '#f15a29' }}>Branding</h5>
-                            <p style={{ textAlign: 'justify', color: '#fff',fontSize: 14 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p style={{  color: '#fff',fontSize: 14,letterSpacing: 0.5 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             
                             </p>

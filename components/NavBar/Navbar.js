@@ -24,16 +24,16 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navToggle" />
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className="dItem" >
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#about-us">About Us</Nav.Link>
-            <NavDropdown title="Services" id="collasible-nav-dropdown" >
-              <NavDropdown.Item href="#android">Android App</NavDropdown.Item>
-              <NavDropdown.Item href="#ios-app">Ios App</NavDropdown.Item>
-              <NavDropdown.Item href="#hybrid">Hybrid App</NavDropdown.Item>
+            <Nav.Link href="/" style={{color: '#fff'}}>Home</Nav.Link>
+            <Nav.Link href="#about-us" style={{color: '#fff'}}>About Us</Nav.Link>
+            <NavDropdown title="Services" id="collasible-nav-dropdown"style={{color: '#fff'}} >
+              <NavDropdown.Item href="#android" >Android App</NavDropdown.Item>
+              <NavDropdown.Item href="#ios-app" >Ios App</NavDropdown.Item>
+              <NavDropdown.Item href="#hybrid" >Hybrid App</NavDropdown.Item>
               {/* <NavDropdown.Divider /> */}
-              <NavDropdown.Item href="#window-app">Web App</NavDropdown.Item>
+              <NavDropdown.Item href="#window-app" style={{color: '#fff'}}>Web App</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#contact-us">Contact us</Nav.Link>
+            <Nav.Link href="#contact-us" style={{color: '#fff'}}>Contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

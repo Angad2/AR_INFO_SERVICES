@@ -1,4 +1,48 @@
 .main{
-    background-color: '#C7C9A9';
+    background-color: 'red';
     font-family: 'Poppins';
 }
+.main1{
+    background-color: #016799;
+}
+.certificate{
+    background-color: #016799;
+    position: relative;
+    padding: 25px 25px 25px 80px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .certificate::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    left: -25px;
+    top: 50px;
+    transform: rotate(45deg);
+  }
+  .certificate ul{
+    list-style-type: none;
+    padding: 0px;
+  }
+  .certificate ul li{
+    color: #fff;
+    list-style-type: disc;
+  }
+  .certificate h4{
+    font-family: "Century Gothic";
+    color: #fff;
+    font-weight: 600;
+  }
+  .white-layer .highlight{
+    font-family: "Century Gothic";
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .common-padd {
+    padding: 55px 0;
+  }
+  .site-hero{
+    font-size: 20px;
+  }
